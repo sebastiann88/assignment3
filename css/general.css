@@ -99,6 +99,11 @@ p {
     width: 50%;
 }
 
+.media-img-stacked {
+    float: none;
+    margin: 0;
+}
+
 .media-body {
     margin: 0 0 2em 0;
 }
@@ -167,14 +172,12 @@ ul li {
 }
 
 .teva {
-    width: 50%;
-    float:left;
+    width: 100%;
     padding: 0 1rem 0 0;
 }
 
 .zeta {
-    width: 50%;
-    float:left;
+    width: 100%;
     padding: 0 0 0 1rem;
 }
 
@@ -184,10 +187,9 @@ ul li {
 
 .adjust {
     position: relative;
-    top: -1.3rem;
+    top: 
 }
 
-.inline-block {
+.inline {
     display: inline-block;
-    margin:  1rem 2.5rem;
 }
