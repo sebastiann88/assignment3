@@ -25,3 +25,62 @@ img {
 	width: 100%;
     display: block;
 }
+
+.logo {
+    position: relative;
+    float: right;
+    width: 3rem;
+    display: inline-block;
+    margin: 0.5rem;
+}
+
+.company-name {
+    top: 5rem;
+    width: 100%;
+    text-align: center;
+}
+
+h1 {
+    font-size: 72px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 28px;
+    line-height: 28px;
+    font-weight: 700;
+}
+
+h3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 700;
+}
+
+p {
+    font-family: 'Rakleway', sans-serif;
+    font-size: 16px;
+    line-height: 21px;
+    
+}
+
+.media {
+    overflow: hidden;
+}
+
+.media-img {
+    float: left;
+    margin: 0 0 0 0;
+    width: 50%;
+}
+
+.media-body {
+    margin: 0 0 2em 0;
+}
+
+.product-shot {
+    width: 172px;
+}
