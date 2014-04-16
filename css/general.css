@@ -35,15 +35,15 @@ img {
 }
 
 .company-name {
-    top: 5rem;
     width: 100%;
     text-align: center;
 }
 
 h1 {
-    font-size: 72px;
     font-family: 'Raleway', sans-serif;
+    font-size: 72px;
     font-weight: bold;
+    line-height: 60px;
 }
 
 h2 {
@@ -83,4 +83,12 @@ p {
 
 .product-shot {
     width: 172px;
+    height: 272px;
+}
+
+.hamburger {
+    position: absolute;
+    top: 1rem;
+    width: 43px;
+    height: 43px;
 }
