@@ -255,3 +255,18 @@ figcaption {
 .right-align {
     text-align: right;
 }
+
+.company-ceo {  
+    width: 384px;
+    height: 220px;
+}
+
+.ceo {
+    position: absolute;
+    color: white;
+    left: 15.5rem;
+}
+
+.less-margin {
+    margin: 1rem 0 0rem 0;
+}
