@@ -246,3 +246,12 @@ figcaption {
 .width-50% {
     width: 50%;
 }
+
+.product-preview {
+    width: 180px;
+    height: 140px:
+}
+
+.right-align {
+    text-align: right;
+}
