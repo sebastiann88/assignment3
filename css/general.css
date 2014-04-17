@@ -17,6 +17,7 @@ Colours
 
 Dark Green: #5f706f
 Yellow: #f2e3b3
+Light Brown: #947644
 
 */
 
@@ -190,6 +191,10 @@ ul {
 
 .yellow {
     color: #f2e3b3;
+}
+
+.light-brown {
+    color: #947644;
 }
 
 .shop-now {
