@@ -37,7 +37,13 @@ img {
 .logo {
     position: relative;
     float: right;
-    width: 3rem;
+    width: 2.5rem;
+    display: inline-block;
+    margin: 0.5rem;
+}
+
+.logo-footer {
+    width: 2.5rem;
     display: inline-block;
     margin: 0.5rem;
 }
@@ -76,6 +82,15 @@ h4 {
     font-size: 15px;
     line-height: 15px;
     font-weight: 700;
+    margin: 1rem;
+}
+
+h5 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: normal;
+    margin: 1rem;
 }
 
 p {
@@ -110,9 +125,14 @@ p {
     margin: 0 0 2em 0;
 }
 
-.product-shot {
+.product-shot-172x272 {
     width: 172px;
     height: 272px;
+}
+
+.product-shot-160x212 {
+    width: 160px;
+    height: 212px
 }
 
 .float-left {
@@ -124,16 +144,19 @@ ul {
     font-family: 'Raleway', sans-serif;
     font-size: 15px;
     line-height: 15px;
-    font-weight: 700;
-    color: #f2e3b3;
+    color: #5f706f;
 }
 
-ul li {
+.less-than {
     list-style-image: url(../images/less-than.svg);
+    color: #f2e3b3;
+    font-weight: 700;
 }
 
 .more-than {
     list-style-image: url(../images/more-than.svg);
+    color: #f2e3b3;
+    font-weight: 700;
 }
 
 .price-range {
@@ -175,12 +198,12 @@ ul li {
 
 .teva {
     width: 100%;
-    padding: 0 1rem 0 0;
+    padding: 0 0.5rem 0 0;
 }
 
 .zeta {
     width: 100%;
-    padding: 0 0 0 1rem;
+    padding: 0 0 0 0.5rem;
 }
 
 .max-width {
@@ -194,4 +217,27 @@ ul li {
 
 .inline {
     display: inline-block;
+}
+
+figcaption {
+    float:right;  
+    margin-right: 1rem; 
+}
+
+.border {
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
+
+.extra-margin-top {
+    margin-top: 1rem:
+}
+
+.centered {
+    position: relative;
+    top: 2rem;
+}
+
+.width-50% {
+    width: 50%;
 }
