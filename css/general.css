@@ -49,11 +49,6 @@ img {
     margin: 0.5rem;
 }
 
-.company-name {
-    width: 100%;
-    text-align: center;
-}
-
 h1 {
     font-family: 'Raleway', sans-serif;
     font-size: 72px;
@@ -249,15 +244,14 @@ figcaption {
     text-align: right;
 }
 
-.company-ceo {  
-    width: 384px;
-    height: 220px;
+.company-name {
+    width: 100%;
+    text-align: center;
 }
 
 .ceo {
     position: absolute;
-    color: white;
-    left: 15.5rem;
+    left: 1rem;
 }
 
 .less-margin {
