@@ -109,6 +109,7 @@ p {
 
 .media {
     overflow: hidden;
+    width: 100%;
 }
 
 .media-img {
@@ -127,13 +128,8 @@ p {
 }
 
 .product-shot-172x272 {
-    width: 172px;
-    height: 272px;
-}
-
-.product-shot-160x212 {
-    width: 160px;
-    height: 212px
+    width: 90%;
+    margin-right: 1rem;
 }
 
 .float-left {
@@ -201,14 +197,8 @@ ul {
     color: #5f706f;   
 }
 
-.teva {
-    width: 100%;
-    padding: 0 0.5rem 0 0;
-}
-
-.zeta {
-    width: 100%;
-    padding: 0 0 0 0.5rem;
+.image-flex {
+   width: 90%;
 }
 
 .max-width {
@@ -222,6 +212,7 @@ ul {
 
 .inline {
     display: inline-block;
+    width: 100%;
 }
 
 figcaption {
