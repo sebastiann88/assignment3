@@ -248,6 +248,8 @@ figcaption {
 .company-name {
     width: 80%;
     text-align: center;
+    align-content: center;
+    align-self:center;
 }
 
 .ceo {
