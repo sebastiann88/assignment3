@@ -18,6 +18,7 @@ Colours
 Dark Green: #5f706f
 Yellow: #f2e3b3
 Light Brown: #947644
+Dark Red: #63100f
 
 */
 
@@ -76,7 +77,7 @@ h3 {
 h4 {
     font-family: 'Raleway', sans-serif;
     font-size: 15px;
-    line-height: 15px;
+    line-height: 18px;
     font-weight: 700;
     margin: 1rem;
 }
@@ -134,7 +135,7 @@ p {
 ul {
     font-family: 'Raleway', sans-serif;
     font-size: 15px;
-    line-height: 15px;
+    line-height: 18px;
     color: #5f706f;
 }
 
@@ -245,7 +246,7 @@ figcaption {
 }
 
 .company-name {
-    width: 100%;
+    width: 80%;
     text-align: center;
 }
 
