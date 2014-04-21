@@ -262,3 +262,7 @@ figcaption {
 .float-left {
     float: left;
 }
+
+a {
+    text-decoration: none;
+}
