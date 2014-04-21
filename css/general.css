@@ -157,13 +157,20 @@ ul {
 }
 
 .price-range {
-    margin-left: 3rem;
+    margin: 0;
     color: #f2e3b3;
+    padding: 0.5rem 0 0.5rem 2rem;
 }
 
 .price-range-box {
     overflow:hidden;
     background-color: #63100f;
+}
+
+.price-range-box ul {
+    margin: 0 auto;
+    padding: 0;
+    width: 290px;
 }
 
 .price-range-numbers {
@@ -174,9 +181,10 @@ ul {
     margin-bottom: 1rem;
 }
 
-.header {
+header {
     background-color: #5f706f;
     padding: 1rem 0 1.5rem 0;
+    overflow: hidden;
 }
 
 .dark-green {
@@ -304,6 +312,7 @@ a {
 	-o-transition: all 250ms linear;
 	-webkit-transition: all 250ms linear;
 	transition: all 250ms linear;
+    overflow:hidden;
 }
 
 .nav-top[data-state="expanded"] {
